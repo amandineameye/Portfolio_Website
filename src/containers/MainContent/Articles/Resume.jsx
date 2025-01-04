@@ -99,7 +99,7 @@ const Resume = () => {
 			title: "Assistante universitaire - Université de Maastricht",
 			date: "09/2018 – 06/2019",
 			description:
-				"Supervision de 3 classes d’étudiants de 1e année Bachelier en Mathématiques et Statistiques. Correction des exercices et évaluations, clarification des concepts complexes. Collaboration avec le professeur pour optimiser le contenu et la méthodologie du cours.",
+				"Supervision de 3 classes d’étudiants de 1e année Bachelier en Mathématiques et Statistiques. Correction des exercices et évaluations, clarification des concepts complexes. Collaboration avec le professeur pour optimiser le contenu et la méthodologie du cours",
 		},
 		{
 			title: "Tutrice - Grade Boost",
@@ -125,7 +125,15 @@ const Resume = () => {
 	return (
 		<article className="resume">
 			<header>
-				<h2 className="h2 article-title">Resume</h2>
+				<h2 className="h2 article-title resume-title">
+					Resume{" "}
+					<a
+						href="/files/Amandine-Ameye_Resume.pdf"
+						download="Amandine_Ameye_resume.pdf"
+					>
+						<ion-icon name="download-outline"></ion-icon>
+					</a>
+				</h2>
 			</header>
 			<TimelineSection
 				icon="book-outline"
@@ -133,8 +141,8 @@ const Resume = () => {
 				items={education}
 			/>
 			<TimelineSection
-				icon="book-outline"
-				title="Experience"
+				icon="hammer-outline"
+				title="Activities and Experience"
 				items={experience}
 			/>
 		</article>

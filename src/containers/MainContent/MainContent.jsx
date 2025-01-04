@@ -7,7 +7,7 @@ import Contact from "./Articles/Contact";
 import { useState } from "react";
 
 const MainContent = () => {
-	const [activePage, setActivePage] = useState("Resume");
+	const [activePage, setActivePage] = useState("About");
 
 	const handleButtonClick = (page) => {
 		setActivePage(page);

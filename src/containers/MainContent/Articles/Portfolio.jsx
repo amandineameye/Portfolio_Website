@@ -1,21 +1,69 @@
-const FilterList = () => {
+import { useState, useEffect } from "react";
+import clsx from "clsx";
+
+const filterCategories = ["All", "React.js", "Node.js", "Vanilla JS"];
+const projects = [
+	{
+		projectTitle: "Diabestie",
+		projectCategory: "React.js, Node.js, MongoDB, Redux",
+		imgLink: "/pictures/new_DB.png",
+		gitHubLink: "https://github.com/amandineameye/Diabestie_React",
+	},
+	{
+		projectTitle: "Carbon Quest",
+		projectCategory: "React.js, Node.js, MongoDB, Unity, C#",
+		imgLink: "/pictures/new_CQ.png",
+		gitHubLink: "https://github.com/amandineameye/Carbon_Quest",
+		webLink: "https://super-carbon-quest.vercel.app/",
+	},
+
+	{
+		projectTitle: "Portfolio Website",
+		projectCategory: "React.js",
+		imgLink: "/pictures/new_PF.png",
+		gitHubLink: "https://github.com/amandineameye/Portfolio",
+	},
+	{
+		projectTitle: "Mastermind",
+		projectCategory: "Vanilla JS",
+		imgLink: "/pictures/new_MM.png",
+		gitHubLink: "https://github.com/amandineameye/Exos_JS/tree/main/Mastermind",
+		webLink: "https://mastermindamandine.vercel.app/",
+	},
+
+	{
+		projectTitle: "Diabest Friend",
+		projectCategory: "Vanilla JS",
+		imgLink: "/pictures/new_DF.png",
+		gitHubLink: "https://github.com/amandineameye/Diabest_Friend",
+	},
+	{
+		projectTitle: "Harry Potter Quiz",
+		projectCategory: "Vanilla JS",
+		imgLink: "/pictures/new_HP1.png",
+		gitHubLink: "https://github.com/amandineameye/Quizz_Harry_Potter",
+	},
+];
+
+const FilterList = ({ onFilter = () => {}, activeFilter = "" }) => {
 	return (
 		<ul className="filter-list">
-			<li className="filter-item">
-				<button className="active">All</button>
-			</li>
+			{/* rajouter active classname au bon bouton */}
 
-			<li className="filter-item">
-				<button>React.js</button>
-			</li>
-
-			<li className="filter-item">
-				<button>Node.js</button>
-			</li>
-
-			<li className="filter-item">
-				<button>Vanilla JS</button>
-			</li>
+			{filterCategories.map((category) => {
+				return (
+					<li className="filter-item">
+						<button
+							className={clsx({ active: category === activeFilter })}
+							onClick={() => {
+								onFilter(category);
+							}}
+						>
+							{category}
+						</button>
+					</li>
+				);
+			})}
 		</ul>
 	);
 };
@@ -25,70 +73,99 @@ const FilterSelectBox = () => {
 		<div className="filter-select-box">
 			<button className="filter-select">
 				<div className="select-value">Select category</div>
-
 				<div className="select-icon">
 					<ion-icon name="chevron-down"></ion-icon>
 				</div>
 			</button>
 
 			<ul className="select-list">
-				<li className="select-item">
-					<button>All</button>
-				</li>
-
-				<li className="select-item">
-					<button>Web design</button>
-				</li>
-
-				<li className="select-item">
-					<button>Applications</button>
-				</li>
-
-				<li className="select-item">
-					<button>Web development</button>
-				</li>
+				{filterCategories.map((category) => {
+					return (
+						<li className="select-item">
+							<button>{category}</button>
+						</li>
+					);
+				})}
 			</ul>
 		</div>
 	);
 };
 
-const Project = ({ projectTitle = "", projectCategory = "", imgLink = "" }) => {
+const HoverContainer = ({ webLink = "", gitHubLink = "" }) => {
 	return (
-		<li className="project-item  active">
-			<a href="#">
+		<div className="project-item-icon-container">
+			<a href={webLink} target="_blank">
+				<div className="project-item-icon-box">
+					<ion-icon name="eye-outline"></ion-icon>
+				</div>
+			</a>
+
+			<a href={gitHubLink} target="_blank">
+				<div className="project-item-icon-box">
+					<ion-icon name="logo-github"></ion-icon>
+				</div>
+			</a>
+		</div>
+	);
+};
+
+const Project = ({
+	projectTitle = "",
+	projectCategory = "",
+	imgLink = "",
+	webLink = "",
+	gitHubLink = "",
+}) => {
+	const [isActive, setIsActive] = useState(false);
+
+	useEffect(() => {
+		// To make the li not have active classname for a slight moment to allow the animation to work smoothly
+		const timer = setTimeout(() => setIsActive(true), 50);
+		return () => clearTimeout(timer);
+	}, []);
+
+	return (
+		<li className={clsx("project-item", { active: isActive })}>
+			<div>
 				<figure className="project-img">
-					<div className="project-item-icon-box">
-						<ion-icon name="eye-outline"></ion-icon>
-					</div>
+					<HoverContainer webLink={webLink} gitHubLink={gitHubLink} />
+					<img src={imgLink} alt={projectTitle} loading="lazy" />
 				</figure>
 
 				<h3 className="project-title">{projectTitle}</h3>
-
 				<p className="project-category">{projectCategory}</p>
-			</a>
+			</div>
 		</li>
 	);
 };
 
-const ProjectList = () => {
+const ProjectList = ({ displayedProjects = [] }) => {
 	return (
 		<ul className="project-list">
-			<Project
-				projectTitle="Carbon Quest"
-				projectCategory="React.js, Node.js, MongoDB"
-			/>
-			<Project
-				projectTitle="Diabestie"
-				projectCategory="React.js, Node.js, MongoDB, Redux"
-			/>
-			<Project projectTitle="Personal Portfolio" projectCategory="React.js" />
-			<Project projectTitle="MasterMind" projectCategory="Vanilla JS" />
-			<Project projectTitle="Harry Potter Quiz" projectCategory="Vanilla JS" />
+			{displayedProjects.map((project) => {
+				return <Project {...project} />;
+			})}
 		</ul>
 	);
 };
 
 const Portfolio = () => {
+	const [displayedProjects, setDisplayedProjects] = useState(projects);
+	const [activeFilter, setActiveFilter] = useState("All");
+
+	const handleFilter = (category) => {
+		let filteredProjects;
+		if (category === "All") {
+			filteredProjects = projects;
+		} else {
+			filteredProjects = projects.filter((project) => {
+				return project.projectCategory.includes(category);
+			});
+		}
+		setDisplayedProjects(filteredProjects);
+		setActiveFilter(category);
+	};
+
 	return (
 		<article className="portfolio">
 			<header>
@@ -96,9 +173,9 @@ const Portfolio = () => {
 			</header>
 
 			<section className="projects">
-				<FilterList />
+				<FilterList onFilter={handleFilter} activeFilter={activeFilter} />
 				<FilterSelectBox />
-				<ProjectList />
+				<ProjectList displayedProjects={displayedProjects} />
 			</section>
 		</article>
 	);
