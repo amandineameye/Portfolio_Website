@@ -1,8 +1,10 @@
-const NavBarItem = ({ item = "", onButtonClick = () => {} }) => {
+import clsx from "clsx";
+
+const NavBarItem = ({ item = "", onButtonClick = () => {}, isActive = "" }) => {
 	return (
 		<li className="navbar-item">
 			<button
-				className="navbar-link"
+				className={clsx("navbar-link", { active: isActive })}
 				onClick={() => {
 					onButtonClick(item);
 				}}
@@ -13,13 +15,18 @@ const NavBarItem = ({ item = "", onButtonClick = () => {} }) => {
 	);
 };
 
-const NavBar = ({ onButtonClick = () => {} }) => {
-	const navItems = ["About", "Resume", "Portfolio", "Contact"];
+const NavBar = ({ onButtonClick = () => {}, activePage = "" }) => {
+	const navItems = ["About", "Skills", "Resume", "Portfolio", "Contact"];
 	return (
 		<nav className="navbar">
 			<ul className="navbar-list">
 				{navItems.map((item) => (
-					<NavBarItem key={item} item={item} onButtonClick={onButtonClick} />
+					<NavBarItem
+						key={item}
+						item={item}
+						isActive={activePage === item}
+						onButtonClick={onButtonClick}
+					/>
 				))}
 			</ul>
 		</nav>

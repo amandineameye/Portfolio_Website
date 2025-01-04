@@ -1,5 +1,6 @@
 import NavBar from "./NavBar";
 import About from "./Articles/About";
+import Skills from "./Articles/Skills";
 import Resume from "./Articles/Resume";
 import Portfolio from "./Articles/Portfolio";
 import Contact from "./Articles/Contact";
@@ -14,6 +15,7 @@ const MainContent = () => {
 
 	const pages = {
 		About: <About />,
+		Skills: <Skills />,
 		Resume: <Resume />,
 		Portfolio: <Portfolio />,
 		Contact: <Contact />,
@@ -21,7 +23,7 @@ const MainContent = () => {
 
 	return (
 		<div className="main-content">
-			<NavBar onButtonClick={handleButtonClick} />
+			<NavBar onButtonClick={handleButtonClick} activePage={activePage} />
 			{pages[activePage]}
 		</div>
 	);

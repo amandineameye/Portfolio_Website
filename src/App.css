@@ -324,6 +324,14 @@ main {
 	transition: var(--transition-2);
 }
 
+.sidebar img {
+	border-radius: 50%;
+	width: 180px; /* Set width (height will be equal to this value to make it square) */
+	height: 180px; /* Set height to the same value as width to make it square */
+	object-fit: cover; /* Ensure the image fills the container and crops as necessary */
+	object-position: top; /* Crop the image from the top (show the upper part) */
+}
+
 .sidebar.active {
 	max-height: 405px;
 }
@@ -336,10 +344,10 @@ main {
 	gap: 15px;
 }
 
-.avatar-box {
+/* .avatar-box {
 	background: var(--bg-gradient-onyx);
 	border-radius: 20px;
-}
+} */
 
 .info-content .name {
 	color: var(--white-2);
@@ -1415,14 +1423,6 @@ textarea.form-input::-webkit-resizer {
 		gap: 25px;
 	}
 
-	.avatar-box {
-		border-radius: 30px;
-	}
-
-	.avatar-box img {
-		width: 120px;
-	}
-
 	.info-content .name {
 		margin-bottom: 15px;
 	}
@@ -1958,10 +1958,6 @@ textarea.form-input::-webkit-resizer {
 
 	.sidebar-info {
 		flex-direction: column;
-	}
-
-	.avatar-box img {
-		width: 150px;
 	}
 
 	.info-content .name {

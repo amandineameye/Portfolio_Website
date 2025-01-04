@@ -2,7 +2,7 @@ const SidebarInfo = () => {
 	return (
 		<div className="sidebar-info">
 			<figure className="avatar-box">
-				<img src="/pro_pic.png" alt="photo d'Amandine Ameye" width="80" />
+				<img src="/pro_pic.png" alt="photo d'Amandine Ameye" />
 			</figure>
 			<div className="info-content">
 				<h1 className="name">Amandine Ameye</h1>
