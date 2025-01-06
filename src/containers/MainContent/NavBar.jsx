@@ -16,7 +16,7 @@ const NavBarItem = ({ item = "", onButtonClick = () => {}, isActive = "" }) => {
 };
 
 const NavBar = ({ onButtonClick = () => {}, activePage = "" }) => {
-	const navItems = ["About", "Skills", "Resume", "Portfolio", "Contact"];
+	const navItems = ["About", "Skills", "Portfolio", "Resume", "Contact"];
 	return (
 		<nav className="navbar">
 			<ul className="navbar-list">
