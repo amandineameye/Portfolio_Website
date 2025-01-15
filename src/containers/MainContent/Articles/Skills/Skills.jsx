@@ -1,17 +1,17 @@
 import Logo from "../Logo";
 
 const tools = [
-	"html",
-	"css",
-	"javascript",
-	"typescript",
+	"HTML",
+	"CSS",
+	"JavaScript",
+	"TypeScript",
 	"react",
 	"redux",
-	"node.js",
+	"Node.js",
 	"express",
 	"sass",
 	"tailwind",
-	"mongodb",
+	"mongoDB",
 	"git",
 	"gitHub",
 	"wordpress",
