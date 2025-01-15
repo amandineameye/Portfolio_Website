@@ -623,7 +623,7 @@ main {
 
 .passion-box {
 	width: 400px;
-	padding: 1rem;
+	padding: 1.7rem;
 	color: var(--light-gray);
 	display: flex;
 	flex-direction: column;
