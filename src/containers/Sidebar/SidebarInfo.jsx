@@ -1,4 +1,13 @@
-const SidebarInfo = () => {
+const ShowContactsBtn = ({ handleShowContacts = () => {} }) => {
+	return (
+		<button className="info_more-btn" onClick={handleShowContacts}>
+			<span>Show Contacts</span>
+			<ion-icon name="chevron-down"></ion-icon>
+		</button>
+	);
+};
+
+const SidebarInfo = ({ handleShowContacts = () => {} }) => {
 	return (
 		<div className="sidebar-info">
 			<figure className="avatar-box">
@@ -8,10 +17,7 @@ const SidebarInfo = () => {
 				<h1 className="name">Amandine Ameye</h1>
 				<p className="title">Web Developer</p>
 			</div>
-			<button className="info_more-btn">
-				<span>Show Contacts</span>
-				<ion-icon name="chevron-down"></ion-icon>
-			</button>
+			<ShowContactsBtn handleShowContacts={handleShowContacts} />
 		</div>
 	);
 };
