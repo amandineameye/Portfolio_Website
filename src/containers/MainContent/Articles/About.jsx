@@ -45,7 +45,7 @@ const passions = [
 const PassionBox = ({ logoName = "", name = "", description = "" }) => {
 	return (
 		<div className="passion-box">
-			<Logo logoName={logoName} />
+			<Logo logoName={logoName} width="30px" height="30px" />
 			<h4>{name}</h4>
 			<p>{description}</p>
 		</div>
