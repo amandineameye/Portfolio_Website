@@ -12,7 +12,7 @@ const tools = [
 	"Sass",
 	"Tailwind",
 	"MongoDB",
-	"Git",
+	"git",
 	"GitHub",
 	"WordPress",
 	"Figma",
