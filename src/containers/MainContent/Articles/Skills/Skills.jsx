@@ -1,21 +1,21 @@
 import Logo from "../Logo";
 
 const tools = [
-	"HTML",
-	"CSS",
-	"JavaScript",
-	"TypeScript",
-	"React",
-	"Redux",
-	"Node.js",
-	"Express",
-	"Sass",
-	"Tailwind",
-	"MongoDB",
+	"html",
+	"css",
+	"javascript",
+	"typescript",
+	"react",
+	"redux",
+	"node.js",
+	"express",
+	"sass",
+	"tailwind",
+	"mongoDB",
 	"git",
-	"GitHub",
-	"WordPress",
-	"Figma",
+	"gitHub",
+	"wordPress",
+	"figma",
 ];
 
 const SkillBox = ({ name = "" }) => {
