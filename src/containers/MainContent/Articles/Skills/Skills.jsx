@@ -14,7 +14,7 @@ const tools = [
 	"mongoDB",
 	"git",
 	"gitHub",
-	"wordPress",
+	"wordpress",
 	"figma",
 ];
 
