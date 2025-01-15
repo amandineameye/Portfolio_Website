@@ -1,4 +1,4 @@
-const svgImports = import.meta.glob("../../../../assets/logos/*.svg", {
+const svgImports = import.meta.glob("../../../assets/logos/*.svg", {
 	eager: true, // Charge les fichiers immédiatement
 	import: "ReactComponent", // Spécifie d'importer les composants React
 });

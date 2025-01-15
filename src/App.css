@@ -38,8 +38,8 @@
 	);
 	--text-gradient-yellow: linear-gradient(
 		to right,
-		hsl(45, 100%, 72%),
-		hsl(35, 100%, 68%)
+		hsl(190, 72%, 64%),
+		hsl(187, 65%, 55%)
 	);
 
 	/* solid */
@@ -51,8 +51,8 @@
 	--smoky-black: hsl(0, 0%, 7%);
 	--white-1: hsl(0, 0%, 100%);
 	--white-2: hsl(0, 0%, 98%);
-	--orange-yellow-crayola: hsl(45, 100%, 72%);
-	--vegas-gold: hsl(45, 54%, 58%);
+	--orange-yellow-crayola: #58c4dc;
+	--vegas-gold: rgb(76, 173, 195);
 	--light-gray: hsl(0, 0%, 84%);
 	--light-gray-70: hsla(0, 0%, 84%, 0.7);
 	--bittersweet-shimmer: hsl(0, 43%, 51%);
@@ -599,6 +599,50 @@ main {
 }
 
 /**
+   * #passions
+   */
+
+.passions-title {
+	margin-bottom: 30px;
+}
+
+.passions-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+}
+
+.passion-box::before {
+	content: "";
+	position: absolute;
+	inset: 1px;
+	background: var(--bg-gradient-jet);
+	border-radius: inherit;
+	z-index: -1;
+}
+
+.passion-box {
+	width: 400px;
+	padding: 1rem;
+	color: var(--light-gray);
+	display: flex;
+	flex-direction: column;
+	gap: 0.6rem;
+	align-items: center;
+	background: var(--border-gradient-onyx);
+	box-shadow: var(--shadow-2);
+	border-radius: 14px;
+	position: relative;
+	z-index: 1;
+}
+
+.passion-box p {
+	font-weight: 200;
+	font-size: 1rem;
+	text-align: center;
+}
+
+/**
    * #testimonials 
    */
 
@@ -896,6 +940,85 @@ main {
    * skills 
    */
 
+.boxes-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 30px;
+	justify-content: center;
+}
+.skill-box::before {
+	content: "";
+	position: absolute;
+	inset: 1px;
+	background: var(--bg-gradient-jet);
+	border-radius: inherit;
+	z-index: -1;
+}
+
+.skill-box {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 135px;
+	gap: 1rem;
+	padding: 1.3rem;
+	color: var(--light-gray);
+	background: var(--border-gradient-onyx);
+	box-shadow: var(--shadow-2);
+	border-radius: 14px;
+	position: relative;
+	z-index: 1;
+}
+
+.skill-box h4 {
+	font-weight: 400;
+}
+
+.lang-title {
+	margin-top: 40px;
+	margin-bottom: 30px;
+}
+
+.lang-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 25px;
+	justify-content: center;
+}
+.lang-box::before {
+	content: "";
+	position: absolute;
+	inset: 1px;
+	background: var(--bg-gradient-jet);
+	border-radius: inherit;
+	z-index: -1;
+}
+
+.lang-box {
+	color: var(--light-gray);
+	width: 250px;
+	background: var(--border-gradient-onyx);
+	box-shadow: var(--shadow-2);
+	border-radius: 14px;
+	position: relative;
+	z-index: 1;
+	padding: 1rem;
+	display: flex;
+	flex-direction: column;
+	gap: 0.4rem;
+}
+
+.lang-box h4 {
+	font-weight: 500;
+}
+
+.lang-box p {
+	font-weight: 200;
+	font-size: 0.9rem;
+}
+
+/*----------------------------------------------------*/
+
 .skills-title {
 	margin-bottom: 20px;
 }
@@ -1014,7 +1137,7 @@ main {
 
 .project-item.active {
 	display: block;
-	animation: scaleUp 0.25s ease forwards;
+	animation: scaleUp 0.4s ease forwards;
 }
 
 @keyframes scaleUp {

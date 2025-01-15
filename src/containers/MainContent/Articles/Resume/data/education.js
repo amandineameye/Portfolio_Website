@@ -1,35 +1,35 @@
 const education = [
 	{
-		title: "Front-End Developer - Interface3 (Bruxelles)",
+		title: "Front-End Developer - Interface3 (Brussels)",
 		date: "2024 — Present",
 		description:
-			"Programme de 14 mois axé sur le développement web avec JavaScript (ES6+) et React.js",
+			"14-month program focused on web development using JavaScript (ES6+) and React.",
 	},
 	{
-		title: "Master in Banking & Finance - Université de Saint-Gall (Suisse)",
+		title:
+			"Master in Banking & Finance - University of St. Gallen (Switzerland)",
 		date: "2021 — 2022",
 		description:
-			"Classé 6e meilleur master de finance au monde par le Financial Times en 2021. Programme suspendu définitivement pour des raisons de santé et dans le cadre d’un projet de réorientation",
+			"Ranked 6th best finance master's in the world by the Financial Times in 2021. Program permanently suspended due to health reasons and as part of a career transition.",
 	},
 	{
 		title:
-			"Bachelier en Business International - Université de Maastricht (Pays-Bas)",
+			"Bachelor's degree in International Business - Maastricht University (Netherlands)",
 		date: "2017 — 2021",
 		description:
-			"Moyenne générale: 17,4/20. Membre de la “Beta Gamma Sigma Society”, distinction réservée aux 10% meilleurs étudiants de la promotion. Échange universitaire à l'Université de Californie, campus de Santa Barbara (États-Unis)",
+			"Overall GPA: 17.4/20. Member of the 'Beta Gamma Sigma Society,' a distinction reserved for the top 10% of students. Academic exchange at the University of California, Santa Barbara (USA)",
 	},
 	{
 		title:
-			"Anglais intensif - International Language Academy of Canada (Canada)",
+			"Intensive English program - International Language Academy of Canada (Canada)",
 		date: "2016 — 2017",
 		description:
-			"Cours théoriques avancés et participation à des tables de conversation. Immersion totale d’un trimestre à l’Université Capilano (Vancouver)",
+			"Advanced theoretical courses and participation in conversation tables. Full immersion semester at Capilano University (Vancouver)",
 	},
 	{
 		title: "CESS - Collège Saint-Augustin (Enghien)",
 		date: "2009 — 2016",
-		description:
-			"Options: Latin et Mathématiques. Immersion Néerlandais durant 4 ans",
+		description: "Options: Latin and Mathematics. 4 years of Dutch immersion",
 	},
 ];
 

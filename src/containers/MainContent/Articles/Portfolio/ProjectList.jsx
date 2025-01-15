@@ -13,7 +13,7 @@ const Project = ({
 
 	useEffect(() => {
 		// To make the li not have active classname for a slight moment to allow the animation to work smoothly
-		const timer = setTimeout(() => setIsActive(true), 50);
+		const timer = setTimeout(() => setIsActive(true), 100);
 		return () => clearTimeout(timer);
 	}, []);
 

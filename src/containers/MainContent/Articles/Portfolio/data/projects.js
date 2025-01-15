@@ -1,13 +1,13 @@
 const projects = [
 	{
 		projectTitle: "Diabestie",
-		projectCategory: "React.js, Node.js, MongoDB, Redux",
+		projectCategory: "React, Node.js, MongoDB, Redux",
 		imgLink: "/pictures/new_DB.png",
 		gitHubLink: "https://github.com/amandineameye/Diabestie_React",
 	},
 	{
 		projectTitle: "Carbon Quest",
-		projectCategory: "React.js, Node.js, MongoDB, Unity, C#",
+		projectCategory: "React, Node.js, MongoDB, Unity, C#",
 		imgLink: "/pictures/new_CQ.png",
 		gitHubLink: "https://github.com/amandineameye/Carbon_Quest",
 		webLink: "https://super-carbon-quest.vercel.app/",
@@ -15,7 +15,7 @@ const projects = [
 
 	{
 		projectTitle: "Portfolio Website",
-		projectCategory: "React.js",
+		projectCategory: "React",
 		imgLink: "/pictures/new_PF.png",
 		gitHubLink: "https://github.com/amandineameye/Portfolio",
 	},
