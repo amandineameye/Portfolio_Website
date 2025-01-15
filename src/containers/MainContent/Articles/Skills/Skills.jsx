@@ -11,7 +11,7 @@ const tools = [
 	"express",
 	"sass",
 	"tailwind",
-	"mongoDB",
+	"mongodb",
 	"git",
 	"gitHub",
 	"wordpress",
