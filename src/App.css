@@ -22,12 +22,12 @@
 		hsl(240, 2%, 13%);
 	--bg-gradient-yellow-1: linear-gradient(
 		to bottom right,
-		hsl(45, 100%, 71%) 0%,
+		hsl(187, 65%, 55%) 0%,
 		hsla(36, 100%, 69%, 0) 50%
 	);
 	--bg-gradient-yellow-2: linear-gradient(
 			135deg,
-			hsla(45, 100%, 71%, 0.251) 0%,
+			hsla(187, 65%, 55%, 0.05) 0%,
 			hsla(35, 100%, 68%, 0) 59.86%
 		),
 		hsl(240, 2%, 13%);
@@ -610,6 +610,7 @@ main {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 25px;
+	justify-content: center;
 }
 
 .passion-box::before {
@@ -1338,6 +1339,93 @@ main {
 /*-----------------------------------*\
     #CONTACT
   \*-----------------------------------*/
+
+.email-modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1000;
+	background: rgba(0, 0, 0, 0.5);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.email-modal-content {
+	background: black;
+	color: var(--white-2);
+	padding: 2.3rem;
+	border-radius: 14px;
+	text-align: center;
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 1.5rem;
+	font-size: 1.2rem;
+}
+
+.email-modal-close-btn {
+	border: none;
+	cursor: pointer;
+	position: relative;
+	padding: 10px 20px 10px 10px;
+	border-radius: 5px;
+	background: var(--border-gradient-onyx);
+	color: var(--orange-yellow-crayola);
+	z-index: 1010;
+	transition: var(--transition-1);
+	font-size: 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 3px;
+}
+
+.email-modal-close-btn::before {
+	content: "";
+	position: absolute;
+	inset: 1px;
+	background: var(--bg-gradient-jet);
+	border-radius: inherit;
+	z-index: -1;
+	transition: var(--transition-1);
+}
+
+.form-btn {
+	position: relative;
+	width: 100%;
+	background: var(--border-gradient-onyx);
+	color: var(--orange-yellow-crayola);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	padding: 13px 20px;
+	border-radius: 14px;
+	font-size: var(--fs-6);
+	text-transform: capitalize;
+	box-shadow: var(--shadow-3);
+	z-index: 1;
+	transition: var(--transition-1);
+}
+
+.form-btn::before {
+	content: "";
+	position: absolute;
+	inset: 1px;
+	background: var(--bg-gradient-jet);
+	border-radius: inherit;
+	z-index: -1;
+	transition: var(--transition-1);
+}
+
+.email-modal-close-btn:hover {
+	background: var(--orange-yellow-crayola);
+}
 
 .mapbox {
 	position: relative;
