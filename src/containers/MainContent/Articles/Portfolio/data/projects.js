@@ -4,6 +4,7 @@ const projects = [
 		projectCategory: "React, Node.js, MongoDB, Redux",
 		imgLink: "/pictures/new_DB.png",
 		gitHubLink: "https://github.com/amandineameye/Diabestie_React",
+		webLink: "https://diabestie-ecru.vercel.app/",
 	},
 	{
 		projectTitle: "Carbon Quest",
@@ -18,6 +19,7 @@ const projects = [
 		projectCategory: "React",
 		imgLink: "/pictures/new_PF.png",
 		gitHubLink: "https://github.com/amandineameye/Portfolio",
+		webLink: "https://amandineameye.vercel.app/",
 	},
 	{
 		projectTitle: "Mastermind",
