@@ -1872,8 +1872,9 @@ textarea.form-input::-webkit-resizer {
      */
 
 	.mapbox {
-		height: 380px;
+		height: 280px;
 		border-radius: 18px;
+		margin-top: 40px;
 	}
 
 	.input-wrapper {
@@ -2195,11 +2196,33 @@ textarea.form-input::-webkit-resizer {
 	.sidebar {
 		position: sticky;
 		top: 60px;
-		max-height: max-content;
-		height: 100%;
+		max-height: none;
+		height: 850px;
 		margin-bottom: 0;
 		padding-top: 60px;
 		z-index: 1;
+	}
+
+	article {
+		max-height: none;
+		height: 850px;
+	}
+
+	article::-webkit-scrollbar {
+		width: 5px; /* Set scrollbar width */
+	}
+
+	article::-webkit-scrollbar-track {
+		background: #f1f1f1; /* Background of the track */
+	}
+
+	article::-webkit-scrollbar-thumb {
+		background: #888; /* Color of the scrollbar thumb */
+		border-radius: 30px; /* Rounded corners */
+	}
+
+	article::-webkit-scrollbar-thumb:hover {
+		background: #555; /* Color when hovered */
 	}
 
 	.sidebar-info {
@@ -2254,5 +2277,10 @@ textarea.form-input::-webkit-resizer {
 
 	.timeline-text {
 		max-width: 700px;
+	}
+
+	.resume-content {
+		overflow-y: scroll;
+		height: 85%;
 	}
 }

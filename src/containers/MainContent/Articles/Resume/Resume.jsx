@@ -44,16 +44,18 @@ const Resume = () => {
 					</a>
 				</h2>
 			</header>
-			<TimelineSection
-				icon="book-outline"
-				title="Education"
-				items={education}
-			/>
-			<TimelineSection
-				icon="hammer-outline"
-				title="Activities and Experience"
-				items={experience}
-			/>
+			<div className="resume-content has-scrollbar">
+				<TimelineSection
+					icon="book-outline"
+					title="Education"
+					items={education}
+				/>
+				<TimelineSection
+					icon="hammer-outline"
+					title="Activities and Experience"
+					items={experience}
+				/>
+			</div>
 		</article>
 	);
 };
