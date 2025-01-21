@@ -36,10 +36,7 @@ const Resume = () => {
 			<header>
 				<h2 className="h2 article-title resume-title">
 					Resume{" "}
-					<a
-						href="/files/Amandine_Ameye_resume_EN.pdf"
-						download="Amandine_Ameye.pdf"
-					>
+					<a href="/files/Amandine_Ameye.pdf" download="Amandine_Ameye.pdf">
 						<ion-icon name="download-outline"></ion-icon>
 					</a>
 				</h2>
