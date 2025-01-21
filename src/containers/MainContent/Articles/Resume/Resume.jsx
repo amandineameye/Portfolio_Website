@@ -38,7 +38,7 @@ const Resume = () => {
 					Resume{" "}
 					<a
 						href="/files/Amandine_Ameye_resume_EN.pdf"
-						download="Amandine_Ameye_resume.pdf"
+						download="Amandine_Ameye.pdf"
 					>
 						<ion-icon name="download-outline"></ion-icon>
 					</a>
