@@ -25,5 +25,3 @@ const SidebarInfo = ({ handleShowContacts = () => {} }) => {
 export default SidebarInfo;
 
 
-// srcSet="/pictures/profile1.png, /pictures/profile2.png, /pictures/profile3.png, /pictures/profile4.png" 
-
