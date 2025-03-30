@@ -77,3 +77,31 @@ The original project is licensed under the **MIT License**, and the license file
 └── ...
 
 ```
+
+---
+
+## 🏃‍♀️ How to Run Locally
+
+1. Clone the repository:
+
+```bash
+   git clone https://github.com/amandineameye/Portfolio_Website.git
+```
+
+2. Navigate into the project directory:
+
+```bash
+    cd Portfolio_Website
+```
+
+3. Install the dependencies:
+
+```bash
+npm install
+```
+
+4. Run the development server:
+
+```bash
+npm run dev
+```
