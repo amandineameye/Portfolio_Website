@@ -1,16 +1,14 @@
 # 🌟 My Portfolio Website
 
-# Welcome to my personal portfolio website! 🚀
+Welcome to my personal portfolio website! This project is built with **React** and showcases my **skills**, **personal projects**, and **experiences** as a **junior developer** with a background in finance.
 
-This project is built with **React** and showcases my **skills**, **personal projects**, and **experiences** as a **junior developer** with a background in finance.
+## 🔑 Key Sections:
 
-## Key Sections:
-
-- **About Me**: Learn about my journey from a finance background to becoming a developer, along with my passions and interests.
-- **Skills**: A showcase of the programming languages and technologies I am proficient in.
-- **Resume**: A detailed overview of all my experiences, including both professional and non-professional roles, as well as my education.
-- **Portfolio**: Explore all my personal projects, which can be filtered based on the technology used.
-- **Contact**: Get in touch with me easily via email.
+- 👩‍💻**About Me**: Learn about my journey from a finance background to becoming a developer, along with my passions and interests.
+- 💡**Skills**: A showcase of the programming languages and technologies I am proficient in.
+- 📑**Resume**: A detailed overview of all my experiences, including both professional and non-professional roles, as well as my education.
+- 📁**Portfolio**: Explore all my personal projects, which can be filtered based on the technology used.
+- 📧**Contact**: Get in touch with me easily via email.
 
 Feel free to explore and learn more about my work and abilities!
 
@@ -47,7 +45,7 @@ The original project is licensed under the **MIT License**, and the license file
 ![About Me Section](https://github.com/amandineameye/Portfolio_Website/blob/main/src/assets/screenshots/aboutme.png)
 ![Skills Section](https://github.com/amandineameye/Portfolio_Website/blob/main/src/assets/screenshots/skills.png)
 ![Projects Section](https://github.com/amandineameye/Portfolio_Website/blob/main/src/assets/screenshots/projects.png)
-![Resume Section](https://github.com/amandineameye/Portfolio_Website/blob/main/src/assets/screenshots/ed%2Bex.png)
+![Resume Section](https://github.com/amandineameye/Portfolio_Website/blob/main/src/assets/screenshots/resume.png)
 ![Contact Section](https://github.com/amandineameye/Portfolio_Website/blob/main/src/assets/screenshots/contact.png)
 
 ---
