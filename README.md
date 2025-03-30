@@ -4,11 +4,11 @@ Welcome to my personal portfolio website! This project is built with **React** a
 
 ## 🔑 Key Sections:
 
-- 👩‍💻**About Me**: Learn about my journey from a finance background to becoming a developer, along with my passions and interests.
-- 💡**Skills**: A showcase of the programming languages and technologies I am proficient in.
-- 📑**Resume**: A detailed overview of all my experiences, including both professional and non-professional roles, as well as my education.
-- 📁**Portfolio**: Explore all my personal projects, which can be filtered based on the technology used.
-- 📧**Contact**: Get in touch with me easily via email.
+- 👩‍💻 **About Me**: Learn about my journey from a finance background to becoming a developer, along with my passions and interests.
+- 💡 **Skills**: A showcase of the programming languages and technologies I am proficient in.
+- 📑 **Resume**: A detailed overview of all my experiences, including both professional and non-professional roles, as well as my education.
+- 📁 **Portfolio**: Explore all my personal projects, which can be filtered based on the technology used.
+- 📧 **Contact**: Get in touch with me easily via email.
 
 Feel free to explore and learn more about my work and abilities!
 
