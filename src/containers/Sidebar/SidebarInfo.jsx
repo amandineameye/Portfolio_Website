@@ -11,7 +11,7 @@ const SidebarInfo = ({ handleShowContacts = () => {} }) => {
 	return (
 		<div className="sidebar-info">
 			<figure className="avatar-box">
-				<img src="/pictures/profile2.png" alt="photo d'Amandine Ameye" />
+				<img src="/pictures/profile1.png" alt="photo d'Amandine Ameye" />
 			</figure>
 			<div className="info-content">
 				<h1 className="name">Amandine Ameye</h1>
