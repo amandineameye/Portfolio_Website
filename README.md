@@ -64,9 +64,9 @@ The original project is licensed under the **MIT License**, and the license file
 📦 Portfolio_Website
 ├── 📁 public          # Static assets (pictures, resume PDF file)
 ├── 📁 src
-│   ├── 📁 assets       # Logos
-│   ├── 📁 components   # Reusable UI components
-│   ├── 📁 containers   # Page sections
+│   ├── 📁 assets      # Logos
+│   ├── 📁 components  # Reusable UI components
+│   ├── 📁 containers  # Page sections
 │   ├── App.js         # Main React component
 │   ├── index.js       # Entry point
 │   ├── index.css      # All global styling
@@ -75,4 +75,5 @@ The original project is licensed under the **MIT License**, and the license file
 ├── package.json       # Project metadata & dependencies
 ├── README.md          # Documentation
 └── ...
+
 ```
