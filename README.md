@@ -32,7 +32,11 @@ The original project is licensed under the **MIT License**, and the license file
 
 ## 📸 Screenshots
 
-![Portfolio Screenshot](https://github.com/amandineameye/Portfolio_Website/blob/main/public/pictures/PF.png?raw=true)
+![About Me Section]()
+![Skills Section]()
+![Projects Section]()
+![Resume Section]()
+![Contact Section]()
 
 ---
 
