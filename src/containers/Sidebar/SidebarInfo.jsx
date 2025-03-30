@@ -11,7 +11,7 @@ const SidebarInfo = ({ handleShowContacts = () => {} }) => {
 	return (
 		<div className="sidebar-info">
 			<figure className="avatar-box">
-				<img src="/pictures/profile.png" alt="photo d'Amandine Ameye" />
+				<img src="/pictures/profile2.png," alt="photo d'Amandine Ameye" />
 			</figure>
 			<div className="info-content">
 				<h1 className="name">Amandine Ameye</h1>
@@ -23,3 +23,6 @@ const SidebarInfo = ({ handleShowContacts = () => {} }) => {
 };
 
 export default SidebarInfo;
+
+
+// srcSet="/pictures/profile1.png, /pictures/profile2.png, /pictures/profile3.png, /pictures/profile4.png" 
