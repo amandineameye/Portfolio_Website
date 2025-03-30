@@ -85,13 +85,13 @@ The original project is licensed under the **MIT License**, and the license file
 1. Clone the repository:
 
 ```bash
-   git clone https://github.com/amandineameye/Portfolio_Website.git
+git clone https://github.com/amandineameye/Portfolio_Website.git
 ```
 
 2. Navigate into the project directory:
 
 ```bash
-    cd Portfolio_Website
+cd Portfolio_Website
 ```
 
 3. Install the dependencies:
