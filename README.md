@@ -31,7 +31,7 @@ The original project is licensed under the **MIT License**, and the license file
 
 ## 🎮 Live Demo
 
-[View my portfolio website](https://amandineameye.vercel.app/)
+👉 [View my portfolio website](https://amandineameye.vercel.app/)
 
 ---
 
