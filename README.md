@@ -24,6 +24,7 @@ The **CSS styling** for this project is based on the [vCard Personal Portfolio](
 Since the styles were already well-structured, I chose to keep them in a single `App.css` file instead of breaking them down into individual component styles.
 
 I **transformed the project** by converting all **Vanilla JavaScript logic into React components**, optimizing performance, and implementing React best practices.
+
 The original project is licensed under the **MIT License**, and the license file is included in this repository.
 
 ---
