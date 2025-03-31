@@ -1,4 +1,4 @@
-# 🌟 My Portfolio Website
+# My Portfolio Website 🌟
 
 Welcome to my personal portfolio website! This project is built with **React** and showcases my **skills**, **personal projects**, and **experiences** as a **junior developer** with a background in finance.
 
