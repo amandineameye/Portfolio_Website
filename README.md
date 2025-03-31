@@ -12,21 +12,11 @@ Welcome to my personal portfolio website! This project is built with **React** a
 
 Feel free to explore and learn more about my work and abilities!
 
----
+## ✨ Features
 
-## 🔗 Live Demo
-
-[View my portfolio website](https://amandineameye.vercel.app/)
-
----
-
-## 🛠️ Tech Stack
-
-- **Frontend:** React, Vite
-- **Styling:** CSS (adapted from an open-source template)
-- **Deployment:** Vercel
-
----
+✔️ Responsive & mobile-friendly design  
+✔️ Animated transitions & interactive UI  
+✔️ Contact form with email integration
 
 ## 🎨 Inspiration & Acknowledgment
 
@@ -39,6 +29,12 @@ I **transformed the project** by converting all **Vanilla JavaScript logic into 
 ✅ Improved modularity and scalability
 
 The original project is licensed under the **MIT License**, and the license file is included in this repository.
+
+---
+
+## 🎮 Live Demo
+
+[View my portfolio website](https://amandineameye.vercel.app/)
 
 ---
 
@@ -68,33 +64,11 @@ The original project is licensed under the **MIT License**, and the license file
 
 ---
 
-## 🚀 Features
+## 🧩 Tech Stack
 
-✔️ Responsive & mobile-friendly design  
-✔️ Animated transitions & interactive UI  
-✔️ Contact form with email integration
-
----
-
-## 📂 Folder Structure
-
-```plaintext
-📦 Portfolio_Website
-├── 📁 public          # Static assets (pictures, resume PDF file)
-├── 📁 src
-│   ├── 📁 assets      # Logos
-│   ├── 📁 components  # Reusable UI components
-│   ├── 📁 containers  # Page sections
-│   ├── App.js         # Main React component
-│   ├── index.js       # Entry point
-│   ├── index.css      # All global styling
-│   ├── ...
-├── .gitignore         # Ignored files
-├── package.json       # Project metadata & dependencies
-├── README.md          # Documentation
-└── ...
-
-```
+- **Frontend:** React, Vite
+- **Styling:** CSS (adapted from an open-source template)
+- **Deployment:** Vercel
 
 ---
 
