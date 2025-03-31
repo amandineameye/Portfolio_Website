@@ -44,11 +44,21 @@ The original project is licensed under the **MIT License**, and the license file
 
 ## 📸 Screenshots
 
+### 🖥️ Desktop Version
+
 ![About Me Section](https://github.com/amandineameye/Portfolio_Website/blob/main/src/assets/screenshots/aboutme.png)
 ![Skills Section](https://github.com/amandineameye/Portfolio_Website/blob/main/src/assets/screenshots/skills.png)
 ![Projects Section](https://github.com/amandineameye/Portfolio_Website/blob/main/src/assets/screenshots/projects.png)
 ![Resume Section](https://github.com/amandineameye/Portfolio_Website/blob/main/src/assets/screenshots/resume.png)
 ![Contact Section](https://github.com/amandineameye/Portfolio_Website/blob/main/src/assets/screenshots/contact.png)
+
+### 📱 Mobile Version
+
+![About Me Section](https://github.com/amandineameye/Portfolio_Website/blob/main/src/assets/screenshots/mobile1.png)
+![Skills Section](https://github.com/amandineameye/Portfolio_Website/blob/main/src/assets/screenshots/mobile2.png)
+![Projects Section](https://github.com/amandineameye/Portfolio_Website/blob/main/src/assets/screenshots/mobile3.png)
+![Resume Section](https://github.com/amandineameye/Portfolio_Website/blob/main/src/assets/screenshots/mobile4.png)
+![Contact Section](https://github.com/amandineameye/Portfolio_Website/blob/main/src/assets/screenshots/mobile5.png)
 
 ---
 
