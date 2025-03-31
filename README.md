@@ -61,7 +61,7 @@ The original project is licensed under the **MIT License**, and the license file
 
 ---
 
-## 🧩 Tech Stack
+## 🛠 Tech Stack
 
 - **Frontend:** React, Vite
 - **Styling:** CSS (adapted from an open-source template)
