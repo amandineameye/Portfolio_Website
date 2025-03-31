@@ -14,9 +14,9 @@ Feel free to explore and learn more about my work and abilities!
 
 ## ✨ Features
 
-✔️ Responsive & mobile-friendly design  
-✔️ Animated transitions & interactive UI  
-✔️ Contact form with email integration
+- Responsive & mobile-friendly design
+- Animated transitions & interactive UI
+- Contact form with email integration
 
 ## 🎨 Inspiration & Acknowledgment
 
