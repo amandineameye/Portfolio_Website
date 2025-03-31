@@ -29,7 +29,7 @@ The original project is licensed under the **MIT License**, and the license file
 
 ---
 
-## 🎮 Live Demo
+## 🚀 Live Demo
 
 👉 [View my portfolio website](https://amandineameye.vercel.app/)
 
