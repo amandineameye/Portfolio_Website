@@ -9,8 +9,9 @@ const TextSection = () => {
 				me to fully transition into a career in tech, leading to the completion
 				of an intensive training program in modern web technologies.
 			</p>
+			<p>I am currently interning at the Smart Grids Lab within the Institute Montefiore of Engineering at the University of Liège, where I am developing the front-end interface for a tool that models and optimizes energy systems. This project, commissioned by the Belgian federal institution SPF Energy, is an exciting opportunity to contribute to innovative solutions in the energy sector.</p>
 			<p>
-				I’m now seeking an internship to collaborate with experienced
+				I’m now seeking opportunities to collaborate with experienced
 				developers, further develop my skills, and contribute to meaningful
 				projects.
 			</p>
