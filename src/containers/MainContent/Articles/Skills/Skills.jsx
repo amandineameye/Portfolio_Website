@@ -6,15 +6,15 @@ let tools = [
 	{ logoName: "JavaScript", name: "JavaScript" },
 	{ logoName: "TypeScript", name: "TypeScript" },
 	{ logoName: "react", name: "React" },
-	{ logoName: "redux", name: "Redux" },
 	{ logoName: "Node.js", name: "Node.js" },
 	{ logoName: "express", name: "Express" },
+	{ logoName: "mongoDB", name: "MongoDB" },
+	{ logoName: "redux", name: "Redux" },
+	{ logoName: "svelte", name: "Svelte" },
 	{ logoName: "sass", name: "Sass" },
 	{ logoName: "tailwind", name: "Tailwind" },
-	{ logoName: "mongoDB", name: "MongoDB" },
 	{ logoName: "git", name: "Git" },
 	{ logoName: "gitHub", name: "GitHub" },
-	{ logoName: "wordpress", name: "WordPress" },
 	{ logoName: "figma", name: "Figma" },
 ];
 
