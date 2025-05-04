@@ -4,16 +4,11 @@ const TextSection = () => {
 	return (
 		<section className="about-text">
 			<p>
-				As a dedicated web developer, I discovered my passion for programming
-				during my master’s in finance. This transformative experience inspired
-				me to fully transition into a career in tech, leading to the completion
-				of an intensive training program in modern web technologies.
+			As a dedicated developer with a background in international business and finance, I discovered my passion for programming during my master’s studies — a turning point that led me to fully transition into tech. I completed an intensive training program focused on modern web technologies and frontend development.
 			</p>
-			<p>I am currently interning at the Smart Grids Lab within the Institute Montefiore of Engineering at the University of Liège, where I am developing the front-end interface for a tool that models and optimizes energy systems. This project, commissioned by the Belgian federal institution SPF Energy, is an exciting opportunity to contribute to innovative solutions in the energy sector.</p>
+			<p>I currently work at the Smart Grids Lab at the University of Liège (Montefiore Institute), where I develop the front-end interface of a tool for energy system modeling and optimization. Commissioned by the Energy Directorate of the Belgian Federal Public Service for Economy, this project combines advanced research  with real-world impact in the energy sector.</p>
 			<p>
-				I’m now seeking opportunities to collaborate with experienced
-				developers, further develop my skills, and contribute to meaningful
-				projects.
+			I'm now looking to collaborate with experienced developers, expand my skills, and contribute to meaningful projects.
 			</p>
 		</section>
 	);
@@ -23,23 +18,23 @@ const passions = [
 	{
 		logoName: "puzzles",
 		name: "Puzzles",
-		description: "My go-to activity for relaxation and mental focus.",
+		description: "My go-to for relaxation and mental focus.",
 	},
 	{
 		logoName: "escape_games",
 		name: "Escape games",
-		description: "The perfect blend of teamwork and thrilling challenges.",
+		description: "Where teamwork meets logic under pressure — and fun!",
 	},
 	{
 		logoName: "wordplay",
 		name: "Pun-based humor",
-		description: "I rarely go a day without making a wordplay joke.",
+		description: "I rarely go a day without cracking a wordplay joke.",
 	},
 	{
 		logoName: "parodies",
 		name: "Humorous song parodies",
 		description:
-			"My favorite way to laugh at life's challenges is through song parodies.",
+			"Turning life’s twists into catchy, cathartic tunes.",
 	},
 ];
 
@@ -66,7 +61,7 @@ const PassionsContainer = () => {
 const PassionsSection = () => {
 	return (
 		<section className="passions">
-			<h3 className="h3 passions-title">My Passions</h3>
+			<h3 className="h3 passions-title">Side Quests</h3>
 			<PassionsContainer />
 		</section>
 	);
